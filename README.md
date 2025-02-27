@@ -56,31 +56,34 @@ Open your browser and navigate to http://127.0.0.1:5000.
 
 ## Project Structure
 ```graphsql
-    guessing-game/
-    │
-    ├── screenshots&videos/
-    │   ├── game.jpg
-    │   ├── home.jpg
-    │   ├── login.jpg
-    │   ├── loss.jpg
-    │   ├── page1.jpg
-    │   ├── register.jpg
-    │   ├── video.mp4
-    │   └── win.jpg
-    ├── static/
-    │   └── style.css
-    ├── templates/
-    │   ├── base.html
-    │   ├── game.html
-    │   ├── index.html
-    │   ├── login.html
-    │   ├── loss.html
-    │   ├── page1.html
-    │   ├── register.html
-    │   └── win.html
-    ├── LICENSE
-    ├── README.md
-    └── app.py
+guessing-game/
+     │
+     ├── screenshots&videos/
+     │      ├── game.jpg
+     │      ├── home.jpg
+     │      ├── login.jpg
+     │      ├── loss.jpg
+     │      ├── page1.jpg
+     │      ├── register.jpg
+     │      ├── video.mp4
+     │      └── win.jpg
+     │ 
+     ├── static/
+     │      └── style.css
+     │ 
+     ├── templates/
+     │      ├── base.html
+     │      ├── game.html
+     │      ├── index.html
+     │      ├── login.html
+     │      ├── loss.html
+     │      ├── page1.html
+     │      ├── register.html
+     │      └── win.html
+     │ 
+     ├── LICENSE
+     ├── README.md
+     └── app.py
 ```
 Note: Adjust the file paths for Name.txt and Password.txt according to your operating system if necessary.
 
