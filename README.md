@@ -20,7 +20,7 @@ Flask
 ## Setup
 Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/guessing-game.git
+git clone https://github.com/Mukhdoom-Hammad-khan/Guessing-Game.git
 cd guessing-game
 ```
 
@@ -40,7 +40,9 @@ Run the Application:
 python app.py
 ```
 
-Access the Application: Open your browser and navigate to http://127.0.0.1:5000.
+Access the Application: 
+
+Open your browser and navigate to http://127.0.0.1:5000.
 
 ## Usage
 * Register: Create a new account using the registration form.<br>
