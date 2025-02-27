@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-1">
+    <p class="di">Select difficulty</p>
+
+    <form action="/page" method="post">
+
+        <div class="mode-1">
+            <button value="e" type="submit" name="difficulty" text="This will generate a number form 1-10">Easy</button>
+        </div>
+
+        <div class="mode-2">
+            <button value="n" type="submit" name="difficulty" text="This will generate a number form 1-100">Normal</button>
+        </div>
+
+        <div class="mode-3">
+            <button value="h" type="submit" name="difficulty" text="This will generate a number form 1-1000">Hard</button>
+        </div>
+    
+    </form>
+
+</div>
+
+{% endblock %}

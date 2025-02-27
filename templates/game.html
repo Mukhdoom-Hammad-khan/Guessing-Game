@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-2">
+    <p class="t">You have {{ turns }} turns to guess the number.</p>
+
+    <form action="/page" method="post">
+        <input type="text" name="ma" placeholder="Press a button to guess or input a number" value="{{ value }}">
+        <input type="text" name="difficulty" id="difficulty" value="{{ difficulty }}" hidden>
+        <input type="text" name="guess" value="{{ guess }}" hidden>
+        <input type="text" name="value_hold" id="value_hold" value="{{ value }}" hidden>
+        <input type="text" name="turns" hidden value="{{ turns }}">
+
+        <input class="set0" type="text" name="pass" value="{{ pss }}" readonly>
+
+        <div class="set1">
+            <button class="nos" value="1" name="values">1</button>
+            <button class="nos" value="2" name="values">2</button>
+            <button class="nos" value="3" name="values">3</button>
+            <button class="nos" value="4" name="values">4</button>
+            <button class="nos" value="5" name="values">5</button>
+            <button class="nos3" value="b" name="values">⬅</button>
+        </div>
+        
+        <div class="set2">
+            <button class="nos" value="6" name="values">6</button>
+            <button class="nos" value="7" name="values">7</button>
+            <button class="nos" value="8" name="values">8</button>
+            <button class="nos" value="9" name="values">9</button>
+            <button class="nos" value="0" name="values">0</button>
+            <button class="nos2" value="s" name="values">Submit</button>
+        </div>
+    
+    </form>
+
+</div>
+
+{% endblock %}

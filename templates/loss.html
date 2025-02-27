@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <p class="win">YOU LOSS !<br>Do you want to play again ?</p>
+    <a class="yes" href="{{ url_for('page1') }}">Yes</a>
+    <a class="no" href="{{ url_for('home') }}">No</a>
+</div>
+
+{% endblock %}
